@@ -358,7 +358,7 @@
 		battery,recharging_total_time = <5400>;
 		battery,charging_reset_time = <0>;
 
-		battery,chg_float_voltage = <4250>;
+		battery,chg_float_voltage = <4350>;
 
 		battery,swelling_high_temp_block = <410>;
 		battery,swelling_high_temp_recov = <390>;
@@ -422,7 +422,7 @@
 		battery,pd_current_efficiency = <100>;
 
 		battery,max_input_voltage = <5000>; /* mV */
-		battery,max_input_current = <2000>;  /* mA */
+		battery,max_input_current = <1700>;  /* mA */
 
 		battery,prepare_afc_delay = <0>;
 
