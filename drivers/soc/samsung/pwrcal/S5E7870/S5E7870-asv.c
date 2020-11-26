@@ -713,7 +713,7 @@ static int dvfsg3d_get_asv_table(unsigned int *table)
 	int lv, max_lv;
 
 	max_lv = asv_dvfs_g3d->table->num_of_lv;
-    
+
     /* G3D Voltage Override
 	Define Needed Voltages manually */
 	table[0] = 1262500; // 1300MHz

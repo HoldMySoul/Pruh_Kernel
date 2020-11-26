@@ -76,6 +76,7 @@ echo "Cleaning Please wait....."
 make clean
 echo "Done"
 echo "Flashable image is at output folder"
+times
 elif [ $n -eq 7 ]; then
 
 make exynos7870-j6lte_defconfig
@@ -89,6 +90,7 @@ echo "Cleaning Please wait....."
 make clean
 echo "Done"
 echo "Flashable image is at output folder"
+times
 elif [ $n -eq 8 ]; then
 
 make exynos7870-j7xelte_defconfig
@@ -102,6 +104,7 @@ echo "Cleaning Please wait....."
 make clean
 echo "Done"
 echo "Flashable image is at output folder"
+times
 elif [ $n -eq 9 ]; then
 
 make exynos7870-j7y17lte_defconfig
@@ -115,6 +118,7 @@ echo "Cleaning Please wait....."
 make clean
 echo "Done"
 echo "Flashable image is at output folder"
+times
 elif [ $n -eq 10 ]; then
 
 make exynos7870-on7xelte_defconfig
@@ -128,6 +132,7 @@ echo "Cleaning Please wait....."
 make clean
 echo "Done"
 echo "Flashable image is at output folder"
+times
 elif [ $n -eq 11 ]; then
 echo "============="
 echo "Building zImage For A320X"

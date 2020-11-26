@@ -264,7 +264,7 @@
 		battery,temp_table_data = <900 850 800 750 700 650 600 550 500 450 400 350 320 290 270 250
 								200 150 100 50 0 (-50) (-100) (-150) (-200)>;
 
-		battery,input_current_limit = <1500 450 450 1500 500 900 1500 450 1000 450 900 900 900 1900 1500 450 450 400 700 1300 300 1000 1500 450 1650 2100 1000 1650 80 1800 1650 1400 1000 1000 700 900 900 900 500 2000 1600 3000>;
+		battery,input_current_limit = <1700 450 450 1700 500 900 1700 450 1700 450 900 900 900 1900 1500 450 450 400 700 1700 300 1200 1500 450 1650 1700 1000 1650 80 1800 1650 1400 1000 1000 700 900 900 900 500 2000 1600 3000>;
 		battery,fast_charging_current = <1775 450 450 1775 800 1200 1500 450 1200 450 1775 1775 1775 1600 1775 450 450 400 700 1300 300 1000 1500 450 3000 3500 1000 3000 80 1800 1000 1775 450 1000 1675 1775 1775 1775 450 3000 3000 3000>;
 		battery,full_check_current_1st = <245 0 0 245 245 245 245 245 245 0 245 245 245 245 245 0 0 245 245 245 245 245 245 0 245 245 245 245 0 245 245 245 0 245 245 245 245 245 245 245 245 245>;
 		battery,full_check_current_2nd = <122 0 0 122 122 122 122 122 122 0 122 122 122 122 122 0 0 122 122 122 122 122 122 0 122 122 122 122 0 122 122 122 0 122 122 122 122 122 122 122 122 122>;
@@ -317,7 +317,7 @@
 		battery,chg_12v_high_temp = <615>;
 		battery,chg_high_temp = <500>;
 		battery,chg_high_temp_recovery = <495>;
-		/* battery,chg_charging_limit_current = <1300>; */
+		/* battery,chg_charging_limit_current = <1700>; */
 
 		battery,wpc_high_temp = <460 495>;
 		battery,wpc_high_temp_recovery = <459 400>;
@@ -343,7 +343,7 @@
 		   SEC_BATTERY_FULL_CONDITION_VCELL */
 		battery,full_condition_type = <13>;
 		battery,full_condition_soc = <93>;
-		battery,full_condition_vcell = <4250>;
+		battery,full_condition_vcell = <4350>;
 
 		battery,recharge_check_count = <1>;
 		battery,recharge_condition_type = <4>; /* SEC_BATTERY_RECHARGE_CONDITION_VCELL */
@@ -358,7 +358,7 @@
 		battery,recharging_total_time = <5400>;
 		battery,charging_reset_time = <0>;
 
-		battery,chg_float_voltage = <4350>;
+		battery,chg_float_voltage = <4250>;
 
 		battery,swelling_high_temp_block = <410>;
 		battery,swelling_high_temp_recov = <390>;
@@ -422,7 +422,7 @@
 		battery,pd_current_efficiency = <100>;
 
 		battery,max_input_voltage = <5000>; /* mV */
-		battery,max_input_current = <1500>;  /* mA */
+		battery,max_input_current = <2000>;  /* mA */
 
 		battery,prepare_afc_delay = <0>;
 
